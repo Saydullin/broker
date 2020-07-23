@@ -1,0 +1,630 @@
+@media (max-width: 768px) {
+    .wrapper {
+        max-width: 714px;
+    }
+    .header-wrapper {
+        padding: 28px;
+    }
+    .navigation-links:before {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: -192px;
+        width: 0px;
+    }
+    .header-title:before {
+        content: '';
+        z-index: -1;
+        position: absolute;
+        top: -50%;
+        left: -2%;
+    }
+    .header-foot-navigation {
+        flex-wrap: wrap;
+    }
+    .header-foot-nav  {
+        width: 50%;
+        margin-bottom: 20px;
+    }
+    .header-foot {
+        align-items: center;
+        margin-bottom: 80px;
+    }
+    .header-foot-navigation {
+        margin-left: 20px;
+        width: auto;
+    }
+    .hero-head {
+        width: 382px;
+    }
+    .hero-title {
+        font-size: 24px;
+    }
+    .hero-cards {
+        max-width: 570px;
+        margin: 0 auto;
+        flex-wrap: wrap;
+    }
+    .hero-card {
+        width: 47%;
+        margin-top: 30px;
+    }
+    .guarantee-texts {
+        flex-direction: column;
+        align-items: center;
+    }
+    .guarantee-items {
+        margin-top: 9px;
+        max-width: 90%;
+    }
+    .guarantee {
+        padding: 70px 27px 100px 27px;
+    }
+    .guarantee-card {
+        margin-top: 30px;
+    }
+    .tablet-wrapper {
+        max-width: 100%;
+        margin: 0;
+    }
+    .service {
+        padding: 20px 28px 50px 28px;
+    }
+    .service-button-place {
+        background-color: transparent;
+        border: none;
+        box-shadow: none;
+        padding: 0px;
+    }
+    .service-button { 
+        font-size: 13px;
+        padding: 15px;
+    }
+    .service-info-text {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .service-photo img {
+        width: 290px;
+        height: 211px;
+    }
+    .service-info {
+        width: 384px;
+    }
+    .service {
+        height: auto;
+    }
+    .under-line {
+        display: none;
+    }
+    .callus-title {
+        width: 383px;
+    }
+    .probability {
+        flex-direction: column;
+    }
+    .probability-chart {
+        margin-top: 20px;
+    }
+    .probability-item {
+        position: relative;
+    }
+    .probability-item:after {
+        content: '';
+        position: absolute;
+        top: 45%;
+        right: -3px;
+        width: 8px;
+        height: 30px;
+        background: linear-gradient(89.96deg, #1C76DD 0.11%, #00B8D8 99.86%);
+        border-radius: 6px;
+    }
+    .report:before {
+        width: 0px;
+    }
+    .report-content {
+        margin-top: 0;
+        flex-direction: column;
+    }
+    .report-client-info {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .report-client-video {
+        width: 466px;
+        height: 268px;
+    }
+    .report {
+        max-width: 95%;
+        margin-top: 40px;
+        padding: 50px 28px 40px 28px;
+    }
+    .examples-title {
+        font-size: 24px;
+        width: 258px;
+    }
+    .examples-caption {
+        font-family: "TT Norms normal";
+        font-size: 14px;
+        line-height: 20px;
+        color: #AAC1DF;
+    }
+    .examples-buttons {
+        margin-top: 30px;
+    }
+    .examples-slider {
+        width: 346px;
+        height: 236px;
+        padding: 20px;
+    }
+    .examples-img {
+        width: 160px;
+        height: 148px;
+    }
+    .remember {
+        border-radius: 0px;
+    }
+    .remember-img {
+        width: 369px;
+        height: 600px;
+    }
+    .remember-title {
+        font-size: 24px;
+        width: 325px;
+    }
+    .remember-buttons {
+        display: none;
+    }
+    .faq-content-answer {
+        flex-wrap: wrap;
+    }
+    .faq-questions {
+        width: 80%;
+    }
+    .callus-title {
+        font-size: 24px;
+    }
+    .brokers {
+        padding: 28px;
+    }
+    .rate-title {
+        padding-top: 10px;
+        width: 166px;
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .rate-rates {
+        margin-top: 30px;
+        max-width: 590px;
+        margin: 0 auto;
+        flex-wrap: wrap;
+    }
+    .rate-item {
+        padding: 20px;
+        width: 48%;
+        margin-top: 30px;
+    }
+    .footer-navigation {
+        margin-right: 0px;
+        font-size: 13px;
+    }
+    .footer-dop-parent {
+        align-items: end;
+        flex-direction: column;
+    }
+}
+@media (max-width: 420px) {
+    .wrapper {
+        max-width: calc(100vw - 40px);
+    }
+    .hero-content {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .rate-rates {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .hero-head,
+    .probability,
+    .service {
+        width: 100vw;
+    }
+    .navigation-links {
+        display: none;
+    }
+    .header-feedback-content {
+        display: none;
+    }
+    .header-feedback-mobile {
+        display: flex;
+    }
+    .header-center {
+        margin-top: 90px;
+    }
+    .header-title {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .header-title:before {
+        width: 0px;
+    }
+    .header-logo {
+        width: 55.18px;
+        height: 50px;
+    }
+    .header-caption {
+        font-size: 14px;
+        line-height: 17px;
+    }
+    b {
+        display: block;
+    }
+    .header-social,
+    .header-foot-navigation {
+        display: none;
+    }
+    .header-foot {
+        margin-top: 97px;
+        margin-bottom: 0;
+    }
+    .header-wrapper {
+        padding: 20px;
+        min-height: calc(100vh - 105px);
+    }
+    .navigation-mobile-menu {
+        display: block;
+    }
+    .hero {
+        padding: 30px 0;
+    }
+    .hero-title {
+        width: 300px;
+        padding-top: 10px;
+        font-size: 19px;
+        line-height: 19px;
+    }
+    .hero-caption {
+        width: 300px;
+    }
+    .hero-cards {
+        flex-direction: column;
+    }
+    .hero-card {
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    .guarantee {
+        padding-top: 30px;
+        padding-bottom: 0;
+    }
+    .guarantee-title {
+        padding-top: 10px;
+        width: 164px;
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .guarantee-caption {
+        font-size: 12px;
+        line-height: 17px;
+    }
+    .guarantee-items {
+        flex-direction: column;
+    }
+    .guarantee-item {
+        width: 95%;
+    }
+    .guarantee-card {
+        background-color: transparent;
+        box-shadow: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .guarantee-card-item {
+        width: 100%;
+    }
+    .header-center-buttons {
+        width: 100%;
+    }
+    .guarantee-button {
+        width: 100%;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .guarantee-button .advice-operator {
+        display: none;
+    }
+    .guarantee-button button {
+        font-family: "TT Norms";
+        font-size: 16px;
+        line-height: 19px;
+        color: #FBFBFB;
+        text-align: center;
+    }
+    .service-title {
+        padding-top: 10px;
+        font-size: 16px;
+        line-height: 19px;
+        width: 101px;
+    }
+    .service-button-place {
+        margin-top: 20px;
+        flex-direction: column;
+    }
+    .service-button-place button {
+        margin-top: 10px;
+        font-family: "TT Norms normal";
+        font-size: 13px;
+        line-height: 15px;
+        color: rgba(255, 255, 255, 0.7);
+    }
+    .service-photo img {
+        display: none;
+    }
+    .service-info-under {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .services-link {
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+    .service-info-text {
+        font-family: "TT Norms normal";
+        font-size: 14px;
+        line-height: 19px;
+        color: #F4F4F4;
+    }
+    .probability-item {
+        width: 100%;
+    }
+    .probability {
+        padding-top: 20px;
+    }
+    .probability-item {
+        background-color: transparent;
+        box-shadow: none;
+        padding: 20px;
+    }
+    .probability-chart {
+        width: 97%;
+        margin: 0 auto;
+    }
+    .examples {
+        padding: 0;
+        padding-top: 30px;
+    }
+    .examples-content {
+        flex-direction: column;
+        padding: 0;
+    }
+    .callus-form {
+        width: 100%;
+    }
+    .callus-title {
+        width: 248px;
+        padding-top: 10px;
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .remember {
+        width: 100vw;
+        padding: 20px;
+    }
+    .remember-img {
+        display: none;
+    }
+    .faq-answer {
+        padding: 12px;
+    }
+    .report-title {
+        width: 161px;
+        padding-top: 10px;
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .brokers-title {
+        width: 161px;
+        padding-top: 10px;
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .probability-item::after {
+        right: 0;
+    }
+    .rate-item {
+        width: 90%;
+    }
+    .footer-buttons,
+    .report-button-icon,
+    .examples-button-icon,
+    .footer-foot-item-text {
+        display: none;
+    }
+    .footer-content {
+        width: 100vw;
+        flex-direction: column;
+    }
+    .remember-title {
+        width: 200px;
+    }
+    .guarantee-card {
+        padding: 0;
+        width: 100%;
+    }
+    .report-client-video {
+        width: 276px;
+        height: 158px;
+    }
+    .faq-title {
+        padding-top: 10px;
+        width: 145px;
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .faq-question {
+        padding: 8px 10px 8px 35px;
+        height: 100%;
+        width: 100%;
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .faq-question:before {
+        height: 100%;
+    }
+    .faq-questions {
+        width: 100%;
+    }
+    .faq-answers {
+        margin-top: 23px;
+    }
+    .faq-answer {
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .report-caption {
+        margin-top: 5px;
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .report-client-info {
+        margin-bottom: 30px;
+    }
+    .report-buttons {
+        margin: 0 auto;
+        margin-top: 30px;
+        background: #153A68;
+        justify-content: center;
+        float: left;
+        font-size: 13px;
+    }
+    .examples-buttons {
+        display: none;
+        width: 80%;
+        background: #153A68;
+    }
+    .examples-button {
+        background-color: transparent;
+        font-family: "TT Norms normal";
+        font-size: 13px;
+    }
+    .report-client-info {
+        background-color: transparent;
+        box-shadow: none;
+        padding: 0;
+    }
+    .report {
+        margin: 25px 0px 0px 0px;
+        padding: 20px;
+        max-width: 100%;
+    }
+    .slider-buttons button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        width: 70px;
+        height: 40px;
+    }
+    .slider-buttons {
+        margin-top: 20px;
+    }
+    .examples-title {
+        padding-top: 10px;
+        width: 172px;
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .examples-caption {
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .examples-slider {
+        background: #153A68;
+        box-shadow: 5px 5px 13px rgba(16, 44, 78, 0.9), -5px -5px 10px rgba(26, 73, 130, 0.9), 5px -5px 10px rgba(16, 44, 78, 0.2), -5px 5px 10px rgba(16, 44, 78, 0.2), inset -1px -1px 2px rgba(16, 44, 78, 0.5), inset 1px 1px 2px rgba(26, 73, 130, 0.3);
+        border-radius: 7px;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .examples-slide-buttons {
+        float: none;
+    }
+    .remember-title {
+        width: 268px;
+        margin-top: 40px;
+        width: 268px;
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .remember-caption {
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .faq {
+        padding: 0px;
+        padding-bottom: 50px;
+    }
+    .faq-title {
+        margin-top: 30px;
+    }
+    .faq-question {
+        font-family: "TT Norms normal";
+        padding-left: 0;
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .faq-question:before {
+        width: 0;
+        height: 0;
+    }
+    .callus {
+        padding: 30px 0px;
+        background: none;
+        background: linear-gradient(270deg, #153A68 0%, #18447A 100%);
+    }
+    .callus-form {
+        background-color: transparent;
+        box-shadow: none;
+        padding: 0;
+    }
+    .callus-form-button {
+        margin: 0 auto;
+    }
+    .brokers-title {
+        width: 180px;
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .footer-foot,
+    .footer-content-contacts {
+        flex-direction: column;
+    }
+    .footer-contact-item {
+        margin: 0;
+    }
+    .footer-contact-item:last-child {
+        margin-left: 0px;
+    }
+    footer {
+        padding-bottom: 0;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .rate-content {
+        width: 100%;
+    }
+    .brokers-slide img {
+        width: 110.88px;
+        height: 51.74px;
+    }
+    .header-payments-title {
+        color: #DEDEDE;
+    }
+}
